@@ -33,7 +33,7 @@ module VersionCake
     protected
 
     def version_context
-      request.env['versioncake.context']
+      request.env['versioncake.context'] || VersionCake::VersionContextService.new(VersionCake.config).create_context(request.path, 1)
     end
 
     # Check the version of the request and raise errors when it's invalid. Additionally,
