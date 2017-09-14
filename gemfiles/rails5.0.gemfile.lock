@@ -1,7 +1,7 @@
 PATH
-  remote: ../
+  remote: ..
   specs:
-    versioncake (3.2.0)
+    versioncake (3.3.0)
       actionpack (>= 3.2)
       activesupport (>= 3.2)
       railties (>= 3.2)
@@ -118,4 +118,4 @@ DEPENDENCIES
   versioncake!
 
 BUNDLED WITH
-   1.12.5
+   1.14.6

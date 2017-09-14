@@ -1,6 +1,6 @@
 ## Unreleased Changes
 
-[Full Changelog](https://github.com/bwillis/versioncake/compare/v3.2...master)
+[Full Changelog](https://github.com/bwillis/versioncake/compare/v3.3...master)
 
 Bug Fixes:
 
@@ -14,7 +14,21 @@ Deprecations:
 
 * None
 
-## 3.2.0 (Aug 8, 2015)
+## 3.3.0 (May 7, 2017)
+
+Bug Fixes:
+
+* Remove Fixnum deprecation warnings (#61) thanks [John Hawthorn](https://github.com/jhawthorn)
+
+Enhancements:
+
+* None
+
+Deprecations:
+
+* None
+
+## 3.2.0 (Aug 8, 2016)
 
 Bug Fixes:
 
